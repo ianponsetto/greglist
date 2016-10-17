@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.navbar {
+    border: 1px solid red;
+    background-color: lightblue;
+    width: 100%;
+}
+
+.navbar ul {
+    border: 1px solid blue;
+    padding-left: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    border: 1px solid orange;
+    list-style: none;
+}
+
+.float-right {
+    align-self: flex-end;
+}
