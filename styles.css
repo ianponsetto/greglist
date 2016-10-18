@@ -16,10 +16,13 @@ body {
 .navbar {
     background-color: lightgrey;
     width: 100%;
-    height: 60px;
     position: fixed;
     top: 0;
     left: 0;
+}
+
+.navbar-ul {
+    margin: 10px 0;
 }
 
 .navbar ul {
@@ -28,7 +31,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: rebeccapurple;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .navbar ul li {
@@ -61,6 +64,24 @@ body {
 }
 
 .job-links a {
-    list-style-type: none;
     font-weight: bold;
+}
+
+.job-links {
+    margin-left: 75px;
+}
+
+.results-box {
+    border: 1px solid red;
+    margin-left: 75px;
+    list-style-type: none;
+}
+
+.results-box ul {
+    border: 1px solid green;
+}
+
+.results-box ul li {
+    display: inline-block;
+    border: 1px solid blue;
 }
