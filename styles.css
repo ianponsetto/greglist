@@ -16,8 +16,9 @@ html {
 
 .navbar ul {
     border: 1px solid blue;
-    padding-left: 0;
+    padding: 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .navbar ul li {
@@ -25,6 +26,13 @@ html {
     list-style: none;
 }
 
-.float-right {
-    align-self: flex-end;
+.search-box {
+    width: 80%;
+    margin-top: 100px;
+    border: 1px solid red;
+}
+
+.search-box input {
+    width: 50%;
+    margin: 0 auto;
 }
