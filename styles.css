@@ -8,10 +8,16 @@ html {
     box-sizing: inherit;
 }
 
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
 .navbar {
     border: 1px solid red;
     background-color: lightblue;
     width: 100%;
+    height: 60px;
 }
 
 .navbar ul {
@@ -19,20 +25,42 @@ html {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    color: rebeccapurple;
+    font-size: 24px;
 }
 
 .navbar ul li {
     border: 1px solid orange;
     list-style: none;
+    padding-right: 20px;
 }
 
 .search-box {
     width: 80%;
-    margin-top: 100px;
+    margin-top: 60px;
     border: 1px solid red;
+    margin-left: 75px;
+    margin-bottom: 60px;
 }
 
 .search-box input {
     width: 50%;
     margin: 0 auto;
+    height: 36px;
+}
+
+.search-box img {
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    margin-left: 5px;
+}
+
+.search-box placeholder {
+    font-size: 14px;
+}
+
+.job-links a {
+    list-style-type: none;
+    font-weight: bold;
 }
