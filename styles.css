@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family: sans-serif;
 }
 
@@ -34,6 +34,10 @@ body {
     font-size: 20px;
 }
 
+.navbar .navbar-ul .nav-left {
+    color: black;
+}
+
 .navbar ul li {
     list-style: none;
     padding-right: 20px;
@@ -43,7 +47,12 @@ body {
     width: 80%;
     margin-top: 100px;
     margin-left: 75px;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
+}
+
+.search-box .round {
+    border-radius: 8px;
+    font-size: 14px;
 }
 
 .search-box input {
@@ -57,6 +66,8 @@ body {
     width: 36px;
     height: 36px;
     margin-left: 5px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
 }
 
 .search-box placeholder {
@@ -68,20 +79,46 @@ body {
 }
 
 .job-links {
+    margin-left: 35.5px;
+    color: gray;
+    margin-top: 50px;
+}
+
+.job-links .firstlabel {
+    margin-bottom: 10px;
+}
+
+.job-links .secondlabel {
+    margin-bottom: 10px;
+}
+
+.job-links .thirdlabel {
+    margin-bottom: 10px;
+}
+
+.results {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
     margin-left: 75px;
+    font-size: 18px;
+    font-weight: 100;
 }
 
-.results-box {
-    border: 1px solid red;
-    margin-left: 75px;
-    list-style-type: none;
+.results .prev {
+    border: 1px solid grey;
+    border-right: 0;
+    padding: 8px;
 }
 
-.results-box ul {
-    border: 1px solid green;
+.results .next {
+    border: 1px solid grey;
+    border-left: 0;
+    padding: 8px;
 }
 
-.results-box ul li {
-    display: inline-block;
-    border: 1px solid blue;
+.results .numbers {
+    border: 1px solid grey;
+    padding: 8px;
 }
